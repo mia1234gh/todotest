@@ -1,0 +1,40 @@
+.todo-row {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    background-color: gray;
+    border-radius: 0.5rem;
+
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.text {
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(61, 61, 182);
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.delete-icon,
+.edit-icon {
+    cursor: pointer;
+    color: rgb(7, 59, 59);
+}

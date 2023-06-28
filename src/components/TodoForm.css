@@ -1,0 +1,44 @@
+.todo-form {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.todo-input {
+    border-radius: 0.5rem;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    padding: 5px;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.todo-button {
+    border-radius: 0.5rem;
+    color: azure;
+    background-color: rgb(61, 61, 182);
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+
+.todo-button:focus {
+    transform: scale(0.8);
+    transition: all ease-in-out 0.2ms;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition: all ease-in-out 0.2ms;
+    -moz-transition: all ease-in-out 0.2ms;
+    -ms-transition: all ease-in-out 0.2ms;
+    -o-transition: all ease-in-out 0.2ms;
+}
